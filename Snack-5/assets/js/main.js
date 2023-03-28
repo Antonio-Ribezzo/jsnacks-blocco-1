@@ -5,7 +5,7 @@ let array =[]
 
 for(let i = 0; i < 6; i++){
     const num = parseInt(prompt("inserisci un numero"));
-    if(num % 2 == 1){
+    if(num % 2 != 0){
         array.push(num)
     }
 }
